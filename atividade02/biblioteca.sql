@@ -46,7 +46,7 @@ SELECT * FROM emprestimo;
 SELECT
     aluno.nome
 
+use biblioteca;
 
-git remote add origin https://github.com/t38354631-debug/DataBase.git
-git branch -M main
-git push -u origin main
+ALTER TABLE livro
+ADD CONSTRAINT uk_livro UNIQUE (livro);
