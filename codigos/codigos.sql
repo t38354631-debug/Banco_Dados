@@ -96,7 +96,13 @@ from produto
 inner join venda 
 on venda.id_cliente = produto.id_produto;
 
-
+*****
+select produto.nome_produto, cliente.nome_cliente, venda.preco_unitario_venda
+from produto
+inner join venda
+on venda.id_produto = produto.id_produto and
+inner join cliente 
+on cliente.id_cliente = vendas.id_cliente;
 
 
 
