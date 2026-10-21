@@ -137,7 +137,7 @@ on  venda.id_produto = produto.id_produto
 inner join  cliente
 on venda.id_cliente = cliente.id_cliente
 where  venda.status_venda in("Cancelado", "Concluida");
-
+16
 
 
 
